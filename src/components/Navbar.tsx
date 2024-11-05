@@ -12,9 +12,9 @@ function Navbar() {
 
   return (
     <nav className="flex px-10 h-[89px] w-full sticky top-0 bg-[#044E83] z-10 justify-between items-center">
-      <div className="logo">
+      <div className="logo ">
         <Image
-          className="mt-24"
+          className="mt-24 xs:w-[82px] sm:w-[110px] md:w-[120px]"
           src="/images/logo.png"
           width={100}
           height={50}
