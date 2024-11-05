@@ -1,29 +1,25 @@
 import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // Import Swiper styles
+import "swiper/css";
 
 const ImageSwiper = () => {
   return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
-      loop={true} // Enable looping through slides
-    >
+    <Swiper spaceBetween={50} slidesPerView={1} loop={true}>
       <SwiperSlide>
         <div className="px-5 flex items-center gap-2 mt-10">
           <Image
             className="rounded-lg"
             src="/images/kamran.jpg"
             alt="kamran"
-            width={620}
+            width={690}
             height={600}
           />
           <Image
             className="rounded-lg"
             src="/images/peoples3.jpg"
             alt="kamran"
-            width={680}
+            width={770}
             height={600}
           />
         </div>
@@ -34,14 +30,14 @@ const ImageSwiper = () => {
             className="rounded-lg"
             src="/images/peoples2.jpg"
             alt="kamran"
-            width={600}
+            width={670}
             height={620}
           />
           <Image
             className="rounded-lg"
             src="/images/laptops.jpg"
             alt="kamran"
-            width={700}
+            width={790}
             height={600}
           />
         </div>
@@ -52,14 +48,14 @@ const ImageSwiper = () => {
             className="rounded-lg"
             src="/images/Ameenalam.jpg"
             alt="kamran"
-            width={600}
+            width={670}
             height={600}
           />
           <Image
             className="rounded-lg"
             src="/images/peoples.jpg"
             alt="kamran"
-            width={650}
+            width={790}
             height={600}
           />
         </div>

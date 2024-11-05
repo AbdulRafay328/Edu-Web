@@ -3,7 +3,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <>
-      <footer className=" flex justify-start gap-48 py-16 px-10 bg-[#F4F4F5]">
+      <footer className=" flex justify-start xs:flex-col md:flex-row md:gap-48 xs:gap-12 w-full overflow-hidden gap-48 py-16 px-10 bg-[#F4F4F5]">
         <div>
           <h1 className="text-[#27272A] text-xl font-bold">Core Courses</h1>
 
